@@ -63,8 +63,8 @@
           <div class="col">
             <div class="d-flex align-items-center ">
               <div class="text-white">
-                <h2 class="mb-3">Daftar Antrian</h2>
-                <p class="mb-4">Informasi mengenai nomor antrian pelayanan yang sedang berjalan.</p>
+                <h2 class="mb-3">Jadwal Pelayanan</h2>
+                <p class="mb-4">Informasi mengenai jadwal pelayanan poliklinik.</p>
                 <a class="btn btn-outline-light btn-lg m-2" href="reservasi.html"
                   role="button" style="background-color: #69E6A6; color:#0A2640;">Reservasi Online</a>
               </div>
@@ -72,14 +72,47 @@
           </div>
           <div class="col">
             <div class="text-right">
-              <img class="img-fluid" src="img/antrian.png"/>
+              <img class="img-fluid" src="img/jadwal.png"/>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Daftar Antrian</h2>
+    <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Jadwal Pelayanan</h2>
+
+    <!-- Tanggal & Sesi -->
+    <div class="row">
+        <div class="col" style="margin-left: 2rem;">
+            <h6>Tanggal</h6>
+            <p style="color: #777777;">Pilih tanggal yang diinginkan</p>
+            <div class="form-outline">
+                <input type="date"/>
+            </div>
+        </div>
+        <div class="col">
+            <h6>Jadwal Sesi</h6>
+            <p style="color: #777777;">Pilih sesi yang diinginkan</p>
+            <div class="form-outline">
+                <select class="form-group">
+                    <option value="1">Pagi</option>
+                    <option value="2">Siang</option>
+                    <option value="3">Sore</option>
+                  </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabel Jadwal -->
+    <div class="card-body" style="margin: 2rem;">
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Poli</th>
+                <th>Tanggal</th>
+                <th>Kuota</th>
+            </tr>
+        </table>
+    </div>
     <!-- FOOTER -->
     <footer class="bg-light text-center text-lg-start">
       <div class="container p-4">
