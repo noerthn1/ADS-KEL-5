@@ -13,7 +13,6 @@
   <body>
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript"></script>
-
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark" style="background-color: #0A2640;">
       <div class="container-fluid">
@@ -22,13 +21,13 @@
           <img src="img/logo.png" class="me-2" height="20" alt="Logo" loading="lazy"/>
           <small>HaloKlinik</small>
         </a>
-    
+
         <button class="navbar-toggler" type="menu" data-mdb-toggle="collapse"
-          data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample"
-          aria-expanded="false" aria-label="Toggle navigation">
+        data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample"
+        aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
-    
+
         <div class="d-flex align-items-center">
           <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
             <a class="nav-link" href="jadwal.html"> Jadwal Pelayanan </a>
@@ -39,84 +38,48 @@
           <button type="button" class="btn btn-primary me-3" style="background-color: white; color: #0A2640; border-radius: 30px;">
             <a class="nav-link" href="reservasi.html"> Reservasi Online </a>
           </button>
-        </div>    
+        </div>
       </div>
     </nav>
-    
+
     <!-- HEADER -->
     <header>
-      <!-- Background -->
+       <!-- Background -->
       <div class="p-5 bg-image" style="background-color: #0A2640;">
         <div class="row" style="padding-left: 2rem;">
           <div class="col">
             <div class="d-flex align-items-center h-100">
               <div class="text-white">
-                <h2 class="mb-3">Poliklinik<br>IPB Dramaga</h2>
-                <p class="mb-4">Memfasilitasi pendaftaran pelayanan melalui reservasi online, melihat jadwal pelayanan, dan mengecek serta memonitor daftar antrian.</p>
+                <h2 class="mb-3">Reservasi Online</h2>
+                <p class="mb-4">Mempermudah pendaftaran pelayanan poliklinik IPB Dramaga melalui reservasi online untuk pasien yang sudah terdaftar (pasien lama).</p>
                 <a class="btn btn-outline-light btn-lg m-2" href="reservasi.html"
                   role="button" style="background-color: #69E6A6; color:#0A2640; border-color: #69E6A6; border-radius: 30px;">Reservasi Online</a>
               </div>
             </div>
           </div>
-
           <div class="col">
             <div class="d-flex justify-content-end">
-              <img class="img-fluid" src="img/home.png"/>
+              <img class="img-fluid" src="img/reservasi.png"/>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- MENU -->
-    <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Pelayanan Kami</h2>
+    <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Nomor Antrian</h2>
 
-    <div class="d-flex justify-content-center">
-      <div class="row" style="margin-top: 20px; margin-bottom: 2.5rem;">
-        <div class="col">
-          <div class="card h-100" style="width: 20rem;">
-            <div class="bg-image hover-overlay ripple">
-              <img src="img/jadwal.png" class="card-img-top"/>
-              <a href="jadwal.html">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </a>
-            </div>
-            
-            <div class="card-body">
-              <h5 class="card-title">Melihat Jadwal Pelayanan</h5>
-              <p class="card-text">Informasi mengenai jadwal pelayanan poliklinik.</p>
-            </div>
-          </div>
+    <div class="card border border-dark mb-3" style="margin-left: 8rem; margin-right: 8rem;">
+      <div class="container w-25">
+        <div class="row" style="background-color: grey;">
+          <h5 class="text-center text-white" style="margin-top: 0.5rem">
+            NOMOR ANTRIAN
+          </h5> 
         </div>
-        <div class="col">
-          <div class="card h-100" style="width: 20rem;">
-            <div class="bg-image hover-overlay ripple">
-              <img src="img/reservasi.png" class="card-img-top"/>
-              <a href="reservasi.html">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </a>
-            </div>
-
-            <div class="card-body">
-              <h5 class="card-title">Reservasi Online</h5>
-              <p class="card-text">Mempermudah pendaftaran pelayanan secara online. </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100" style="width: 20rem;">
-            <div class="bg-image hover-overlay ripple">
-              <img src="img/antrian.png" class="card-img-top"/>
-              <a href="antrian.html">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </a>
-            </div>
-            
-            <div class="card-body">
-              <h5 class="card-title">Daftar Antrian</h5>
-              <p class="card-text">Informasi mengenai nomor antrian pelayanan yang sedang berjalan.</p>
-            </div>
-          </div>
+        
+        <div class="row" style="height: 200px; background-color: #0A2640">
+          <h1 class="text-center text-success" style="font-family: 'Manrope'; font-size: 450%; margin-top: 3rem; margin-bottom: 4rem;">
+            10
+          </h1>
         </div>
       </div>
     </div>
@@ -127,19 +90,19 @@
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
             <h4>Butuh Bantuan?</h4>
-            <p><i class="fab fa-whatsapp"></i>0877-7569-2881</p>
+            <div><i class="fab fa-whatsapp-square"></i>0877-7569-2881</div>
             <div><i class="fab fa-instagram"></i>@klinikipbdarmaga</div>
           </div>
     
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h6 class="fw-bold">Menu</h6>
+            <h6>Menu</h6>
             <p><a class="nav-link" href="jadwal.html"> Jadwal Pelayanan </a></p>
             <p><a class="nav-link" href="antrian.html"> Antrian </a></p>
             <p><a class="nav-link" href="reservasi.html"> Reservasi Online </a></p>
           </div>
 
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h6 class="fw-bold">Tentang Kami</h6>
+            <h6>Tentang Kami</h6>
             <p> Alamat </p>
             <p> Jadwal Buka </p>
             <p> E-mail </p>
