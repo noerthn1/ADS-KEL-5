@@ -1,16 +1,16 @@
 # HaloKlinik
 
-- Proyek Akhir **Analisis Desain Sistem**
+- Proyek Akhir Mata Kuliah **Analisis Desain Sistem**
 - Kelompok 6
 
 ## Asisten Praktikum
-- 
-- 
+- Fitria Nuryantika
+- Muhammad Ikhsan Ananda
 
 ## Team
 <table>
   <thead>
-      <th>No</th>
+      <th>No.</th>
       <th>Nama</th>
       <th>NIM</th>
       <th>Role</th>
@@ -18,25 +18,25 @@
   
   <tbody>
     <tr>
-      <td>1</td>
+      <td>1.</td>
       <td>Nadiah Sahidah Ulya</td>
       <td>G6401201005</td>
       <td>Project Manager</td>
      </tr> 
     <tr>
-      <td>2</td>
+      <td>2.</td>
       <td>Nur Sulthan Almuntaha</td>
       <td>G6401201009</td>
       <td>Back End Developer</td>
     </tr> 
     <tr>
-      <td>3</td>
+      <td>3.</td>
       <td>Afiqah Nur Amalia</td>
       <td>G6401201021</td>
       <td>Front End Developer</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>4.</td>
       <td>Safira Aninda Hasanah</td>
       <td>G6401201044</td>
       <td>UI/ UX Designer</td>
