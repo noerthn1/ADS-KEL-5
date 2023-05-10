@@ -1,179 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>HaloKlinik</title>
-    <link rel="icon" href="img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap"/>
-    <link rel="stylesheet" href="css/mdb.min.css" />
-  </head>
-  <body>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script type="text/javascript"></script>
-    
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-dark" style="background-color: #0A2640;">
-      <div class="container-fluid">
-        <!-- LOGO -->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" class="me-2" height="20" alt="Logo" loading="lazy"/>
-          <small>HaloKlinik</small>
-        </a>
 
-        <button class="navbar-toggler" type="menu" data-mdb-toggle="collapse"
-        data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample"
-        aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>HaloKlinik</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" />
+  <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript"></script>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark" style="background-color: #0A2640;">
+    <div class="container-fluid">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="index.php">
+        <img src="img/logo.png" class="me-2" height="20" alt="Logo" loading="lazy" />
+        <small>HaloKlinik</small>
+      </a>
+
+      <button class="navbar-toggler" type="menu" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
+          <a class="nav-link" href="jadwal.php"> Jadwal Pelayanan </a>
         </button>
-
-        <div class="d-flex align-items-center">
-          <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
-            <a class="nav-link" href="jadwal.html"> Jadwal Pelayanan </a>
-          </button>
-          <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
-            <a class="nav-link" href="antrian.html"> Antrian </a>
-          </button>
-          <button type="button" class="btn btn-primary me-3" style="background-color: white; color: #0A2640; border-radius: 30px;">
-            <a class="nav-link" href="reservasi.html"> Reservasi Online </a>
-          </button>
-        </div>
+        <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
+          <a class="nav-link" href="antrian.php"> Antrian </a>
+        </button>
+        <button type="button" class="btn btn-primary me-3" style="background-color: white; color: #0A2640; border-radius: 30px;">
+          <a class="nav-link" href="reservasi.php"> Reservasi Online </a>
+        </button>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- HEADER -->
-    <header>
-       <!-- Background -->
-      <div class="p-5 bg-image" style="background-color: #0A2640;">
-        <div class="row" style="padding-left: 2rem;">
-          <div class="col">
-            <div class="d-flex align-items-center h-100">
-              <div class="text-white">
-                <h2 class="mb-3">Reservasi Online</h2>
-                <p class="mb-4">Mempermudah pendaftaran pelayanan poliklinik IPB Dramaga melalui reservasi online untuk pasien yang sudah terdaftar (pasien lama).</p>
-                <a class="btn btn-outline-light btn-lg m-2" href="reservasi.html"
-                  role="button" style="background-color: #69E6A6; color:#0A2640; border-color: #69E6A6; border-radius: 30px;">Reservasi Online</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="d-flex justify-content-end">
-              <img class="img-fluid" src="img/reservasi.png"/>
+  <!-- HEADER -->
+  <header>
+    <!-- Background -->
+    <div class="p-5 bg-image" style="background-color: #0A2640;">
+      <div class="row" style="padding-left: 2rem;">
+        <div class="col">
+          <div class="d-flex align-items-center h-100">
+            <div class="text-white">
+              <h2 class="mb-3">Reservasi Online</h2>
+              <p class="mb-4">Mempermudah pendaftaran pelayanan poliklinik IPB Dramaga melalui reservasi online untuk pasien yang sudah terdaftar (pasien lama).</p>
+              <a class="btn btn-outline-light btn-lg m-2" href="reservasi.php" role="button" style="background-color: #69E6A6; color:#0A2640; border-color: #69E6A6; border-radius: 30px;">Reservasi Online</a>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-
-    <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Verifikasi Pasien</h2>
-    
-    <!-- FORM -->
-    <form action="reservasi2.html">
-      <div class="card border border-dark mb-3" style="margin-left: 8rem; margin-right: 8rem;">
-        <div class="card-body">
-          <!-- No. Rekam Medis -->
-          <h6>No. Rekam Medis</h6>
-          <div class="form-outline border border-dark">
-              <input type="text" class="form-control"/>
-          </div>
-          <!-- Tanggal Lahir -->
-          <h6 style="margin-top: 1.5rem;">Tanggal Lahir</h6>
-          <div class="form-outline border border-dark">
-              <input type="date" class="form-control"/>
-          </div>
-          <!-- Nama -->
-          <h6 style="margin-top: 1.5rem;">Nama Lengkap</h6>
-          <div class="form-outline border border-dark">
-              <input type="text" class="form-control"/>
-          </div>
-          <!-- Status-->
-          <h6 style="margin-top: 1.5rem;">Status</h6>
-          <div class="form-outline border border-dark">
-              <select class="form-group form-control">
-                  <option value="1">Dosen</option>
-                  <option value="2">Mahasiswa S2</option>
-                  <option value="3">Mahasiswa S1</option>
-                </select>
-          </div>
-          <!-- Tanggal -->
-          <h6 style="margin-top: 1.5rem;">Tanggal Reservasi</h6>
-          <div class="form-outline border border-dark">
-              <input type="date" class="form-control"/>
-          </div>
-          <!-- Sesi -->
-          <h6 style="margin-top: 1.5rem;">Jadwal Sesi</h6>
-          <div class="form-outline border border-dark">
-              <select class="form-group form-control">
-                  <option value="1">Pagi</option>
-                  <option value="2">Siang</option>
-                  <option value="3">Sore</option>
-                </select>
+        <div class="col">
+          <div class="d-flex justify-content-end">
+            <img class="img-fluid" src="img/reservasi.png" />
           </div>
         </div>
       </div>
+    </div>
+  </header>
 
-      <!-- SUBMIT BUTTON -->
-      <div class="text-center">
-        <button type="submit" class="btn btn-primary" style="margin-top: 1rem; margin-bottom: 2rem; background-color: #0A2640; width: 15rem; border-radius: 10px;">
-          Simpan</button>
-      </div>  
-    </form>
+  <h2 class="text-center" style="margin-top: 2.5rem; margin-bottom: 2.5rem;">Verifikasi Pasien</h2>
 
-    <!-- FOOTER -->
-    <footer class="bg-light text-center text-lg-start">
-      <div class="container p-4">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h4 style="color: #0A2640;"><img src="img/Logo Shape.png" height="20" style="margin-right: 5px;"/>Butuh Bantuan?</h4>
-            <p><img src="img/Call.png" height="13" style="margin-right: 5px;"/>0877-7569-2881</p>
-          </div>
-    
-          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h6 class="fw-bold">Menu</h6>
-            <p><a class="nav-link" href="jadwal.html"> Jadwal Pelayanan </a></p>
-            <p><a class="nav-link" href="antrian.html"> Antrian </a></p>
-            <p><a class="nav-link" href="reservasi.html"> Reservasi Online </a></p>
-          </div>
-
-          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h6 class="fw-bold">Tentang Kami</h6>
-            <div class="row">
-              <div class="col-lg-1">
-                <img src="img/Loc.png" height="18" style="margin-right: 5px;"/>
-              </div>
-              <div class="col">
-                <p>Jl. Raya Dramaga, Kampus IPB Dramaga Bogor, 16680, Jawa Barat, Indonesia</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-1">
-                <img src="img/time.png" height="18" style="margin-right: 5px;"/>
-              </div>
-              <div class="col">
-                <p>Senin - Kamis & Sabtu, 08.00 - 20.00 <br>
-                  Jumat, 09.00 - 20.00</p>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-lg-1">
-                <img src="img/email.png" height="18" style="margin-right: 5px;"/>
-              </div>
-              <div class="col">
-                <p>unitkesehatan@apps.ipb.ac.id </p>
-              </div>
-            </div>
-
-          </div>
+  <!-- FORM -->
+  <form action="verif.php" method="post" onsubmit="alert('Data berhasil disimpan');">>
+    <div class="card border border-dark mb-3" style="margin-left: 8rem; margin-right: 8rem;">
+      <div class="card-body">
+        <!-- No. Rekam Medis -->
+        <h6>No. Rekam Medis</h6>
+        <div class="form-outline border border-dark">
+          <input type="text" class="form-control" name="rekam_medis" required />
+        </div>
+        <!-- Tanggal Lahir -->
+        <h6 style="margin-top: 1.5rem;">Tanggal Lahir</h6>
+        <div class="form-outline border border-dark">
+          <input type="date" class="form-control" name="tgl_lahir" required />
+        </div>
+        <!-- Nama -->
+        <h6 style="margin-top: 1.5rem;">Nama Lengkap</h6>
+        <div class="form-outline border border-dark">
+          <input type="text" class="form-control" name="nama_lengkap" required />
+        </div>
+        <!-- Status-->
+        <h6 style="margin-top: 1.5rem;">Status</h6>
+        <div class="form-outline border border-dark">
+          <select class="form-group form-control" name="status" required>
+            <option value="" disabled selected hidden>Pilih status</option>
+            <option value="Dosen">Dosen</option>
+            <option value="Mahasiswa S2">Mahasiswa S2</option>
+            <option value="Mahasiswa S1">Mahasiswa S1</option>
+          </select>
+        </div>
+        <!-- Tanggal -->
+        <h6 style="margin-top: 1.5rem;">Tanggal Reservasi</h6>
+        <div class="form-outline border border-dark">
+          <input type="date" class="form-control" name="tgl_reservasi" required />
+        </div>
+        <!-- Sesi -->
+        <h6 style="margin-top: 1.5rem;">Jadwal Sesi</h6>
+        <div class="form-outline border border-dark">
+          <select class="form-group form-control" name="jadwal_sesi" required>
+            <option value="" disabled selected hidden>Pilih jadwal sesi</option>
+            <option value="Pagi">Pagi</option>
+            <option value="Siang">Siang</option>
+            <option value="Sore">Sore</option>
+          </select>
         </div>
       </div>
-    
-      <div class="text-center p-3" style="background-color: #0A2640; color: white;">
-        © Copyright <b>HaloKlinik</b> Poliklinik IPB Dramaga Bogor, Indonesia
-      </div>
+    </div>
+    <!-- SUBMIT BUTTON -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary" style="margin-top: 1rem; margin-bottom: 2rem; background-color: #0A2640; width: 15rem; border-radius: 10px;">
+        Simpan</button>
+    </div>
+  </form>
 
-    </footer>
-    
-  </body>
+  <!-- FOOTER -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h4 style="color: #0A2640;"><img src="img/Logo Shape.png" height="20" style="margin-right: 5px;" />Butuh Bantuan?</h4>
+          <p><img src="img/Call.png" height="13" style="margin-right: 5px;" />0877-7569-2881</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h6 class="fw-bold">Menu</h6>
+          <p><a class="nav-link" href="jadwal.php"> Jadwal Pelayanan </a></p>
+          <p><a class="nav-link" href="antrian.php"> Antrian </a></p>
+          <p><a class="nav-link" href="reservasi.php"> Reservasi Online </a></p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h6 class="fw-bold">Tentang Kami</h6>
+          <div class="row">
+            <div class="col-lg-1">
+              <img src="img/Loc.png" height="18" style="margin-right: 5px;" />
+            </div>
+            <div class="col">
+              <p>Jl. Raya Dramaga, Kampus IPB Dramaga Bogor, 16680, Jawa Barat, Indonesia</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1">
+              <img src="img/time.png" height="18" style="margin-right: 5px;" />
+            </div>
+            <div class="col">
+              <p>Senin - Kamis & Sabtu, 08.00 - 20.00 <br>
+                Jumat, 09.00 - 20.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-1">
+              <img src="img/email.png" height="18" style="margin-right: 5px;" />
+            </div>
+            <div class="col">
+              <p>unitkesehatan@apps.ipb.ac.id </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-3" style="background-color: #0A2640; color: white;">
+      © Copyright <b>HaloKlinik</b> Poliklinik IPB Dramaga Bogor, Indonesia
+    </div>
+
+  </footer>
+
+</body>
+
 </html>
