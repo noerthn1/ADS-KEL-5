@@ -70,7 +70,7 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 
 ## Sequence Diagram
 - Jadwal pelayanan
-https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Sequence%20Diagram%20-%20Haloklinik%20(jadwal).png
+![Sequence Diagram - Haloklinik (jadwal)](https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Sequence%20Diagram%20-%20Haloklinik%20(jadwal).png)
 
 
 
