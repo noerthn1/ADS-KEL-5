@@ -66,7 +66,9 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 - Memantau nomor antrian sehingga pasien tersebut dapat mengestimasikan waktu keberangkatannya sehingga tidak perlu menunggu lama di poliklinik
 
 ## Use Case Diagram
+![Use Case Diagram - Haloklinik](https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Use%20Case%20-%20Haloklinik.png)
 
+## Activity Diagram
 
 ## Sequence Diagram
 - Jadwal pelayanan
