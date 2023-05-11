@@ -70,15 +70,7 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 
 ## Sequence Diagram
 - Jadwal pelayanan
-![Sequence Diagram - Haloklinik (jadwal)](https://github.com/noerthn1/ADS-KEL-5/assets/74754319/baa0a6ec-ee4b-4967-ac33-acd6ab1a9596)
-- Reservasi online
-![Sequence Diagram - Haloklinik (reservasi)](https://github.com/noerthn1/ADS-KEL-5/assets/74754319/a5c64ef5-440c-49c8-9a2d-c52e57798709)
-- Nomor antrian
-![Sequence Diagram - Haloklinik (nomor antrian)](https://github.com/noerthn1/ADS-KEL-5/assets/74754319/915f81d5-3f7d-4aff-b785-178e5a388fff)
-- Monitor antrian
-![Sequence Diagram - Haloklinik (monitor antrian)](https://github.com/noerthn1/ADS-KEL-5/assets/74754319/011440a7-128d-4a1d-a317-6ef34c776f08)
-- Tambah pasien
-![Sequence Diagram - Haloklinik (tambah pasien)](https://github.com/noerthn1/ADS-KEL-5/assets/74754319/ae11587b-cc0a-410a-8c29-3c047f21dbaa)
+https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Sequence%20Diagram%20-%20Haloklinik%20(jadwal).png
 
 
 
