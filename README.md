@@ -69,30 +69,22 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 <table>
   <thead>
     <tr>
-      <th>No.</th>
-      <th>Aktor</th>
+      <th>Pasien</th>
+      <th>Admin</th>
     </tr>
   </thead>
-  
   <tbody>
     <tr>
-      <td>1.</td>
       <td>Seorang pasien yang sedang sakit ingin mendaftarkan diri untuk berobat di poliklinik</td>
-     </tr> 
-    
-    <tr>
-      <td>2.</td>
-      <td>Admin HaloKlinik</td>
       <td>Seorang admin yang ingin menambahkan daftar antrian pasien dan monitor nomor antrian</td>
-    </tr> 
-    
+     </tr>   
     </tbody>
 </table> 
 
 ## User Stories
 <table>
   <thead>
-      <th>No</th>
+      <th>No.</th>
       <th>Actor</th>
       <th>User Stories</th>
       <th>Acceptance Criteria</th>
@@ -109,7 +101,6 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
       </td>
      </tr>
       <tr>
-      
       <td>2.</td>
       <td>Pasien</td>
       <td>Sebagai seorang pasien, Nuri ingin mendaftarkan diri ke poliklinik tanpa mengantri terlalu lama, sehingga ia bisa mengestimasi waktu kedatangan ke poliklinik </td>
@@ -119,7 +110,7 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
              </ul>
       </td>
      </tr>
-     
+     <tr>
       <td>3.</td>
       <td>Admin</td>
       <td>Sebagai seorang admin, Petra ingin menambah daftar pasien yang akan diperiksa sehingga pasien bisa menambah daftar pasien yang akan diperiksa sehingga pasien mendapat nomor antrian terkini </td>
@@ -128,7 +119,7 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
              </ul>
       </td>
      </tr>
-   
+     <tr>
       <td>4.</td>
       <td>Admin</td>
       <td>Sebagai seorang admin, Petra ingin memperbarui nomor antrian yang sedang diperiksa sehingga nomor antrian pasien berikutnya dapat mempersiapkan diri </td>
