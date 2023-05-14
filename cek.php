@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
             echo "<td>" . $row['poli'] . "</td>";
-            echo "<td>" . $row['tanggal'] . "</td>";
+            echo "<td>" . date('d-m-Y', strtotime($row['tanggal'])) . "</td>";  
             echo "<td>" . $row['kuota'] . "</td>";
             echo "</tr>";
         }
