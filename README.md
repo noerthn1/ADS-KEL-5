@@ -68,20 +68,24 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 ## Actor
 <table>
   <thead>
+    <tr>
       <th>No.</th>
       <th>Aktor</th>
+    </tr>
   </thead>
   
   <tbody>
     <tr>
       <td>1.</td>
-      <td>Seorang **pasien** yang sedang sakit ingin mendaftarkan diri untuk berobat di poliklinik</td>
+      <td>Seorang pasien yang sedang sakit ingin mendaftarkan diri untuk berobat di poliklinik</td>
      </tr> 
+    
     <tr>
       <td>2.</td>
       <td>Admin HaloKlinik</td>
-      <td>Seorang **admin** yang ingin menambahkan daftar antrian pasien dan monitor nomor antrian</td>
+      <td>Seorang admin yang ingin menambahkan daftar antrian pasien dan monitor nomor antrian</td>
     </tr> 
+    
     </tbody>
 </table> 
 
