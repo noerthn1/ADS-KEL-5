@@ -135,8 +135,17 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 ![Use Case Diagram - Haloklinik](https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Use%20Case%20-%20Haloklinik.png)
 
 ## Activity Diagram
-### Cek Antrian
+### Melihat Jadwal Pelayanan
+![Activity Diagram - Haloklinik (jadwal)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(jadwal).jpg)
+
+### Mengecek Nomor Antrian
 ![Activity Diagram - Haloklinik (cek antrian)](https://github.com/noerthn1/ADS-KEL-5/blob/118acbcb02bcaea65f1d8ac337e32bfb4f118051/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(cek%20antrian).jpg)
+
+### Memonitor Nomor Antrian
+![Activity Diagram - Haloklinik (monitor antrian)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(monitor%20antrian).jpg)
+
+### Melakukan Reservasi
+![Activity Diagram - Haloklinik (reservasi)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(reservasi).jpg)
 
 ## Sequence Diagram
 ### Melihat Jadwal Pelayanan
