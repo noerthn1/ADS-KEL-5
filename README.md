@@ -137,34 +137,28 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 ## Activity Diagram
 ### Melihat Jadwal Pelayanan
 ![1](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/1.png)
-
 ### Mengecek Nomor Antrian
 ![2](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/2.png)
-
 ### Memonitor Nomor Antrian
 ![3](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/3.png)
-
 ### Melakukan Reservasi
 ![4](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/4.png)
 
 ## Sequence Diagram
 ### Melihat Jadwal Pelayanan
 ![Sequence - Jadwal](https://github.com/noerthn1/ADS-KEL-5/blob/73f3546156eb18ea9ee008cc378585ecaa3e9cde/system%20analyst/Sequence%20-%20Jadwal.png)
-
 ### Mengecek Nomor Antrian
 ![Sequence - Cek Antrian](https://github.com/noerthn1/ADS-KEL-5/blob/73f3546156eb18ea9ee008cc378585ecaa3e9cde/system%20analyst/Sequence%20-%20Cek%20Antrian.png)
-
 ### Memonitor Nomor Antrian
 ![Sequence - Monitor Antrian](https://github.com/noerthn1/ADS-KEL-5/blob/73f3546156eb18ea9ee008cc378585ecaa3e9cde/system%20analyst/Sequence%20-%20Monitor%20Antrian.png)
-
 ### Melakukan Reservasi
 ![Sequence - Reservasi](https://github.com/noerthn1/ADS-KEL-5/blob/73f3546156eb18ea9ee008cc378585ecaa3e9cde/system%20analyst/Sequence%20-%20Reservasi.png)
-
 ### Menambah Daftar Pasien
 ![Sequence - Tambah Pasien](https://github.com/noerthn1/ADS-KEL-5/blob/73f3546156eb18ea9ee008cc378585ecaa3e9cde/system%20analyst/Sequence%20-%20Tambah%20Pasien.png)
 
 ## Class Diagram
 ![Class Diagram - Haloklinik](https://github.com/noerthn1/ADS-KEL-5/blob/main/system%20analyst/Class%20Diagram%20-%20Haloklinik.jpg)
 
-
+## Prototipe
+![Prototipe](https://github.com/noerthn1/ADS-KEL-5/blob/4af3efdcd9d1db8b530fbbc5c69851b4e9ad18a3/system%20analyst/Prototipe.png)
 
