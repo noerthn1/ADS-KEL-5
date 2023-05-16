@@ -136,16 +136,16 @@ Oleh karena itu, sistem management poliklinik yang terintegrasi secara online di
 
 ## Activity Diagram
 ### Melihat Jadwal Pelayanan
-![Activity Diagram - Haloklinik (jadwal)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(jadwal).jpg)
+![1](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/1.png)
 
 ### Mengecek Nomor Antrian
-![Activity Diagram - Haloklinik (cek antrian)](https://github.com/noerthn1/ADS-KEL-5/blob/118acbcb02bcaea65f1d8ac337e32bfb4f118051/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(cek%20antrian).jpg)
+![2](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/2.png)
 
 ### Memonitor Nomor Antrian
-![Activity Diagram - Haloklinik (monitor antrian)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(monitor%20antrian).jpg)
+![3](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/3.png)
 
 ### Melakukan Reservasi
-![Activity Diagram - Haloklinik (reservasi)](https://github.com/noerthn1/ADS-KEL-5/blob/787057bafea60f2c6df15bef1eb85a3292328307/system%20analyst/Activity%20Diagram%20-%20Haloklinik%20(reservasi).jpg)
+![4](https://github.com/noerthn1/ADS-KEL-5/blob/f39b95e211f69cc661ee3b9b4c444b2e9a507fe4/system%20analyst/4.png)
 
 ## Sequence Diagram
 ### Melihat Jadwal Pelayanan
